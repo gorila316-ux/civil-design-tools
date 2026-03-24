@@ -2,6 +2,15 @@
 
 > Civil 3D 2026 개발 시 참조해야 할 어셈블리 정보
 
+## 플랫폼 요구사항
+
+| 항목 | 값 |
+|------|-----|
+| .NET 버전 | .NET 8.0 |
+| Target Framework | `net8.0-windows` |
+| Visual Studio | 2022 (17.8 이상) |
+| C# 버전 | 12.0 |
+
 ## AutoCAD 기본 어셈블리
 
 | 어셈블리 | 버전 | 설명 |
@@ -32,10 +41,18 @@
 
 ## 프로젝트 참조 설정
 
-### .csproj 예제
+### .csproj 예제 (.NET 8)
 
 ```xml
-<ItemGroup>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
     <!-- AutoCAD -->
     <Reference Include="accoremgd">
         <HintPath>C:\Program Files\Autodesk\AutoCAD 2026\accoremgd.dll</HintPath>
