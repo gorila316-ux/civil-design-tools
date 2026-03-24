@@ -1,5 +1,5 @@
-# 임시 제외 (공유 전)
-README.md
+# 임시 제외 (루트 README만)
+/README.md
 
 # Visual Studio / .NET
 bin/
