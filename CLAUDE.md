@@ -21,8 +21,9 @@ civil-design-tools/
 │   │   ├── civil3d-api/         ← Alignment, Profile, Surface, Corridor, Pipe
 │   │   ├── code-samples/basic/  ← Hello Civil3D 예제
 │   │   └── appendix/            ← DXF, 시스템변수, 외부링크
-│   └── projects/
-│       └── d-hims-plan.md       ← D-HIMS 프로젝트 계획 (별도 저장소 예정)
+│   ├── projects/
+│   │   └── d-hims-plan.md       ← D-HIMS 프로젝트 계획 (별도 저장소 예정)
+│   └── progress.md              ← 주차별 진행 기록
 └── (Phase 폴더들 - 추후 생성)
 ```
 
@@ -91,7 +92,15 @@ Claude Code가 docs/api-reference/ 참조
 - API 레퍼런스 문서 체계 구축 완료 (22개 문서)
 - appendix 섹션 추가 (DXF, 시스템변수, 외부링크)
 - 파일럿 로드맵 단기/중기/장기 재구성
-- D-HIMS 프로젝트 계획 문서화
+- D-HIMS 프로젝트 계획 문서화 (`docs/projects/d-hims-plan.md`)
+- progress.md 업데이트 (Phase 8-10, 장기 프로젝트 추가)
+
+## 현재 상태
+```
+C# 학습: Ch 01 완료, Ch 02 진행 예정
+파일럿: Phase 1 준비 중
+문서화: api-reference 22개 완료
+```
 
 ## 다음 세션 시작 시
 ```
