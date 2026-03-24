@@ -29,9 +29,11 @@ api-reference/
 │   └── new-features.md
 │
 ├── autocad-api/            # AutoCAD 기반 API
+│   ├── transaction.md
 │   ├── database-access.md
 │   ├── entity-manipulation.md
-│   └── transaction.md
+│   ├── selection.md
+│   └── geometry.md
 │
 ├── civil3d-api/            # Civil 3D 객체 API
 │   ├── alignment.md
@@ -50,6 +52,22 @@ api-reference/
 1. [개발환경 설정](./common/development-setup.md) - Visual Studio + Civil 3D 설정
 2. [프로젝트 구조](./common/project-structure.md) - 솔루션 구성 방법
 3. [기본 예제](./code-samples/basic/) - Hello World 수준 예제
+
+## 학습 경로
+
+### AutoCAD API 기초 (필수)
+1. [Transaction](./autocad-api/transaction.md) - 트랜잭션 패턴
+2. [Database Access](./autocad-api/database-access.md) - 테이블 접근
+3. [Entity Manipulation](./autocad-api/entity-manipulation.md) - 엔티티 조작
+4. [Selection](./autocad-api/selection.md) - 사용자 입력/선택
+5. [Geometry](./autocad-api/geometry.md) - 좌표/벡터 연산
+
+### Civil 3D API
+1. [Alignment](./civil3d-api/alignment.md) - 선형
+2. [Profile](./civil3d-api/profile.md) - 종단
+3. [Surface](./civil3d-api/surface.md) - 지형
+4. [Corridor](./civil3d-api/corridor.md) - 코리더
+5. [Pipe Network](./civil3d-api/pipe-network.md) - 관망
 
 ## 버전 선택 가이드
 
