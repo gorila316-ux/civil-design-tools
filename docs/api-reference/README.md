@@ -4,10 +4,12 @@
 
 ## 지원 버전
 
-| 버전 | 상태 | ObjectARX SDK | .NET Framework |
-|------|------|---------------|----------------|
-| Civil 3D 2025 | ✅ 지원 | 2025 | .NET 4.8 |
-| Civil 3D 2026 | ✅ 지원 | 2026 | .NET 4.8 |
+| 버전 | 상태 | ObjectARX SDK | .NET |
+|------|------|---------------|------|
+| Civil 3D 2025 | ✅ 지원 | 2025 | .NET 8.0 |
+| Civil 3D 2026 | ✅ 지원 | 2026 | .NET 8.0 |
+
+> **중요**: Civil 3D 2025부터 .NET Framework 4.8이 아닌 **.NET 8.0**을 사용합니다.
 
 ## 문서 구조
 
@@ -42,9 +44,14 @@ api-reference/
 │   ├── corridor.md
 │   └── pipe-network.md
 │
-└── code-samples/           # 코드 예제
-    ├── basic/
-    └── version-specific/
+├── code-samples/           # 코드 예제
+│   ├── basic/
+│   └── version-specific/
+│
+└── appendix/               # 부록
+    ├── dxf-reference.md
+    ├── system-variables.md
+    └── external-links.md
 ```
 
 ## 빠른 시작
@@ -68,6 +75,11 @@ api-reference/
 3. [Surface](./civil3d-api/surface.md) - 지형
 4. [Corridor](./civil3d-api/corridor.md) - 코리더
 5. [Pipe Network](./civil3d-api/pipe-network.md) - 관망
+
+### 부록 (Appendix)
+- [DXF Reference](./appendix/dxf-reference.md) - DXF 그룹 코드 참조
+- [System Variables](./appendix/system-variables.md) - 개발자용 시스템 변수
+- [External Links](./appendix/external-links.md) - 외부 참조 링크 모음
 
 ## 버전 선택 가이드
 
